@@ -1,8 +1,8 @@
 ** Thông tin sinh viên **
 # Sinh viên:
- Họ và tên : Bùi Như Ý
- MSSV : 22728001
- STT: 78
+ - Họ và tên : Bùi Như Ý
+ - MSSV : 22728001
+ - STT: 78
 
 ** Mô tả cài đặt project
  Blog có hai tác nhân chính:
