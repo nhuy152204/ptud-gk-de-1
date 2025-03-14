@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Trang Cá Nhân{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Trang Cá Nhân</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Xin chào, {{ user.username }}!</h5>
+            <p class="card-text">Email: {{ user.email }}</p>
+            <p class="card-text">Số bài viết: {{ user.posts|length }}</p>
+        </div>
+    </div>
+
+    <h3 class="mt-4">Bài Viết Của Bạn</h3>
+    <div class="row">
+        {% for post in user.posts %}
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text">{{ post.text[:100] }}...</p>
+                    <a href="/post/{{ post.id }}" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
