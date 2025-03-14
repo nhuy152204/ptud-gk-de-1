@@ -86,4 +86,4 @@ Chạy ứng dụng:
 6. Tài khoản Admin (Mặc định)
 - admin_email = "admin@example.com"
 - Username: admin
-- Password: admin123admin123
+- Password: admin123
