@@ -83,7 +83,7 @@ Khôi phục dữ liệu để có bài viết và hình ảnh đầy đủ:
 
 Chạy ứng dụng:
 .\run.bat
- - Tài khoản Admin (Mặc định)
-admin_email = "admin@example.com"
-Username: admin
-Password: 
+6. Tài khoản Admin (Mặc định)
+- admin_email = "admin@example.com"
+- Username: admin
+- Password: admin123admin123
