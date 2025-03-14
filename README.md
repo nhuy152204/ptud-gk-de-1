@@ -71,3 +71,19 @@ Script này sẽ:
    .\run.bat
    ```
 - Ứng dụng sẽ chạy tại: http://localhost:5000
+*** Lưu ý cho người sử dụng:
+
+Sau khi clone repository, chạy lệnh sau để cài đặt hệ thống:
+
+.\setup.bat
+
+Khôi phục dữ liệu để có bài viết và hình ảnh đầy đủ:
+
+.\restore-data.bat
+
+Chạy ứng dụng:
+.\run.bat
+5. Tài khoản Admin (Mặc định)
+admin_email = "admin@example.com"
+Username: admin
+Password: 
