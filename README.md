@@ -45,42 +45,15 @@ Flask-Login, Flask-SQLAlchemy, Flask-WTF
     cd ptud-gk-de-1
    ```
 
-Script này sẽ:
-
-- Tạo môi trường ảo Python
-
-- Cài đặt thư viện Flask
-3. Chạy script cài đặt:
+3. Cài đặt flask_login
    ```
-    .\setup.bat
+    pip install flask_login
    ```
-   Script này sẽ:
-   - Tạo môi trường ảo Python
-   - Cài đặt thư viện Flask
-
-4. Khôi phục dữ liệu (bài viết và hình ảnh):
-     ``` 
-   .\restore-data.bat
-      ```
-   Script này sẽ:
-   - Khôi phục cơ sở dữ liệu từ bản sao lưu
-   - Khôi phục hình ảnh từ thư mục data
-
+   
 5. Chạy ứng dụng:
    ```
-   .\run.bat
+   python app.py
    ```
 - Ứng dụng sẽ chạy tại: http://localhost:5000
-*** Lưu ý cho người sử dụng:
 
-Sau khi clone repository, chạy lệnh sau để cài đặt hệ thống:
-
-.\setup.bat
-
-Khôi phục dữ liệu để có bài viết và hình ảnh đầy đủ:
-
-.\restore-data.bat
-
-Chạy ứng dụng:
-.\run.bat
 
