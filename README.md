@@ -38,7 +38,7 @@ Flask-Login, Flask-SQLAlchemy, Flask-WTF
 
 1. Clone repository từ GitHub:
    ```
-   git clone ** Link: https://github.com/nhuy152204/ptud-gk-de-1
+   git clone https://github.com/nhuy152204/ptud-gk-de-1
    ```
 2. Di chuyển đến thư mục chính
    ```
